@@ -1,0 +1,16 @@
+.main{
+    display: grid;
+    grid-template-columns: 15rem 15rem 15rem 15rem;
+    gap: 3rem;
+    /* margin-left: 3rem; */
+    justify-content: center;
+    
+}
+
+@media screen  and (max-width:655px) {
+    .main{
+        display: grid;
+        grid-template-columns: 15rem 15rem;
+    }
+    
+}
